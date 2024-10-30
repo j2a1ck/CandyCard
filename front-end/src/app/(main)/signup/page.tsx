@@ -1,6 +1,6 @@
 import { Jersey_10 } from 'next/font/google'
 
-const jersey: any = Jersey_10({ subsets: ['latin'], weight: '400' })
+const jersey = Jersey_10({ subsets: ['latin'], weight: '400' })
 
 const signup = () => {
   return (
