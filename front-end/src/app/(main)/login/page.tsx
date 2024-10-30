@@ -1,7 +1,8 @@
 import { Jersey_10 } from 'next/font/google'
 import Link from 'next/link'
 
-const jersey: any = Jersey_10({ subsets: ['latin'], weight: '400' })
+
+const jersey = Jersey_10({ subsets: ['latin'], weight: '400' })
 
 const login = () => {
   return (
